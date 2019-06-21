@@ -1,87 +1,36 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
-    <style>
-            #ABC {
-                background-color: #f2f3d9;
-            }
-            .logo{position:relative}
-            img {
-              transition: 0.30s;
-              -webkit-transition: 0.30s;
-              -moz-transition: 0.30s;
-              -ms-transition: 0.30s;
-              -o-transition: 0.30s;
-            }
-            img:hover {
-            transition: 0.30s;
-            -webkit-transition: 0.30s;
-            -moz-transition: 0.30s;
-            -ms-transition: 0.30s;
-            -o-transition: 0.30s;
-            -webkit-t2ransform: rotate(-180deg);
-            -moz-transform: rotate(-180deg);
-            -o-transform: rotate(-180deg);
-            -ms-transform: rotate(-180deg);
-            transform: rotate(-180deg);
-            } 
-    </style>
-  </head>
-  <body>
 
-<section class="hero is-fullheight" style="background-image:url(https://i.ibb.co/pX90cxD/Screenshot-2019-06-21-at-00-13-19.png)">
-  <div class="hero-head">
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="logo" style="top: 4rem; left: 6rem;max-width: 100%; height: auto;">
-            <img src="https://swish.is/images/logo.svg" >
-          </a>
-          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item is-active">
-              Home
-            </a>
-            <a class="navbar-item">
-              Examples
-            </a>
-            <a class="navbar-item">
-              Documentation
-            </a>
-            <span class="navbar-item">
-              <a class="button is-primary is-inverted">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>Download</span>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
+
+<html>
+<head>
+<title>
+  Ineptitech
+</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://ineptitech.com/images/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="http://test.ineptitech.com/css/hex.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+
+
+
+
+
+
+</head>
+<body>
+<div id="particles-js"></div> <!-- stats - count particles --> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+
+
+</script> <!-- stats.js lib --> 
+
+<section class="hero is-fullheight">
   <div class="hero-body">
     <div class="container">
-      <b>
-      <h1 class="title" style="letter-spacing: -3px; font-weight: normal; font-family: colfax-bold; sans-serif; font-size:60px;color: #222;">
-        
-        The future of digital payments.
-
+      <h1 class="title has-text-centered" style="color: #F1D302; font-size: 120px; font-family: 'Montserrat', sans-serif;">
+        beinvenue
       </h1>
-    </b>
       <h2 class="subtitle">
         Hero subtitle
       </h2>
@@ -90,6 +39,86 @@
 </section>
 
 
-  
-  </body>
-</html></html>
+
+
+<style>
+/* ---- reset ---- */ 
+html {
+  scroll-behavior: smooth;
+}
+
+body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }  /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #020100; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ 
+
+
+body,
+html {
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+  </style>
+
+
+
+
+<script>
+
+  particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#FDFFFC"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+</script>
+
+
+</body>
+</html>
