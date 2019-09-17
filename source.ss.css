@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #222426;
+}
+vantajs{
+    z-index: -10;
+}
+.text{
+    font-size: 3vmax;
+    color: white;
+    padding: 5vmax;
+    overflow: hidden;
+    z-index: 15;
+    font-family: 'IBM Plex Sans' ,sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+.glow-button{
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+.glow-button:hover {
+    filter: invert(70%);
+    filter: blur(1px);
+    
+}
