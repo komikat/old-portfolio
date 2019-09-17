@@ -1,124 +1,35 @@
-
-
+<!DOCTYPE html>
 <html>
 <head>
-<title>
-  Ineptitech
-</title>
-<link rel="shortcut icon" type="image/x-icon" href="https://ineptitech.com/images/favicon.ico" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="http://test.ineptitech.com/css/hex.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
-
-
-
-
-
-
+    <link rel="stylesheet"  href="source.ss.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
-<div id="particles-js"></div> <!-- stats - count particles --> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
-
-
-</script> <!-- stats.js lib --> 
-
-<section class="hero is-fullheight">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title has-text-centered" style="color: #F1D302; font-size: 9.5vmin; font-family: 'Montserrat', sans-serif;">
-        beinvenue
-      </h1>
-      <h2 class="subtitle">
-        
-      </h2>
-    </div>
-  </div>
-</section>
-
-
-
-
 <style>
-/* ---- reset ---- */ 
-html {
-  scroll-behavior: smooth;
-}
 
-body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }  /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #020100; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ 
+</style>
+<body>
+<div id="vantajs" style="z-index: -10; top: 15vmax"></div>
+<div class="text">Hey There! <br>
+    <div style="font-size: 2vmax">I am Akshit <br> <div><a  href="https://github.com/dotakshit"> <img class="glow-button" height="50vmax" src="github-logo.svg" width="50vmax"></a>
+        <a  href="https://github.com/dotakshit"> <img class="glow-button" style="border-radius: 100px; " height="50vmax" src="https://icon-library.net/images/facebook-white-icon/facebook-white-icon-13.jpg" width="50vmax"></a>
+        <a  href="https://github.com/dotakshit"> <img class="glow-button" height="50vmax" style="border-radius: 100px; filter: grayscale(100%)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42M9jmNJ5L2RH-1JTeBEVFPTArUMV4Oxq9pE2h7UkWScHDk3fmg" width="50vmax"></a>
+        <a  href="https://github.com/dotakshit"> <img class="glow-button" height="50vmax" src="github-logo.svg" width="50vmax"></a>
+    </div></div>
 
-
-body,
-html {
-    height: 100%
-}
-
-#particles-js canvas {
-    display: block;
-    vertical-align: bottom;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-    transition: opacity .8s ease, transform 1.4s ease
-}
-
-#particles-js {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -10;
-    top: 0;
-    left: 0
-}
-
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  border: 3px solid #73AD21;
-}
-
-  </style>
+    </div>
 
 
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.trunk.min.js"></script>
 <script>
-
-  particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#FDFFFC"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+    VANTA.TRUNK({
+        el: "#vantajs",
+        color: 0x4a4598
+    })
 </script>
-
-
 </body>
 </html>
