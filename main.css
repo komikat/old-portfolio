@@ -18,7 +18,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
 
-.section-title { text-transform: uppercase; letter-spacing: 4px; margin-bottom: 40px; text-align: center; position: relative; }
+.section-title { text-transform: uppercase; letter-spacing: 4px; margin-bottom: 40px; text-align: center; position: relative; margin-top: 20px}
 .section-title:after { content: ''; position: absolute; bottom: -5px; left: 50%; margin-left: -25px; width: 50px; height: 1px; background: #fff; }
 
 body { font-family: "Lora", Helvetica, Arial, sans-serif, serif; font-size: 16px; line-height: 1.4; background-color: #181712 }
