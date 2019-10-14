@@ -6,7 +6,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
-body { line-height: 1; }
+body { line-height: 1; color: white}
 
 ol, ul { list-style: none; }
 
@@ -19,19 +19,19 @@ table { border-collapse: collapse; border-spacing: 0; }
 .container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
 
 .section-title { text-transform: uppercase; letter-spacing: 4px; margin-bottom: 40px; text-align: center; position: relative; }
-.section-title:after { content: ''; position: absolute; bottom: -5px; left: 50%; margin-left: -25px; width: 50px; height: 1px; background: #222; }
+.section-title:after { content: ''; position: absolute; bottom: -5px; left: 50%; margin-left: -25px; width: 50px; height: 1px; background: #fff; }
 
-body { font-family: "Lora", Helvetica, Arial, sans-serif, serif; font-size: 16px; line-height: 1.4; }
+body { font-family: "Lora", Helvetica, Arial, sans-serif, serif; font-size: 16px; line-height: 1.4; background-color: #181712 }
 
-header { border-bottom: 1px solid #edefee; padding: 40px 0; margin-bottom: 40px; }
+header { border-bottom: 1px solid #b0aba0; padding: 40px 0; margin-bottom: 4px; }
 @media (min-width: 640px) { header { padding: 200px 0 60px; margin-bottom: 60px; } }
 
-.intro { margin-bottom: 40px; }
-.intro__pre, .intro__post { text-transform: uppercase; letter-spacing: 4px; }
-.intro__main { font-size: 1.8rem; line-height: 1.2; font-weight: bold; margin: 10px 0 20px; }
+.intro { margin-bottom: 30px; }
+.intro__pre, .intro__post { text-transform: uppercase; letter-spacing: 4px; color:#fff }
+.intro__main { font-size: 1.8rem; line-height: 1.2; font-weight: bold; margin: 10px 0 20px;}
 @media (min-width: 640px) { .intro__main { font-size: 2.2rem; max-width: 60%; } }
 
-.social a { margin-right: 20px; }
+.social a { color: #181712; border-radius: 6px; padding: 1px; margin: 2px}
 
 .footer { padding: 40px 20px; text-align: center; border-top: 1px solid #edefee; }
 .footer__title { font-size: 1.2rem; font-weight: bold; }
@@ -47,5 +47,5 @@ dt, dd { display: inline-block; vertical-align: top; margin-bottom: 20px; }
   .education dt, .education dd { width: 50%; } }
 .title { margin: 0; font-weight: bold; font-size: 1.2rem; }
 
-a { color: black !important; background: rgba(245, 215, 110, 0.5); transition: all linear .2s; }
-a:hover { background: #f5d76e; text-decoration: none; }
+a { color: black !important; background:#fff; transition: all linear .2s; }
+a:hover { background: #ababab; text-decoration: none; }
