@@ -51,8 +51,8 @@ html, body {
   text-decoration: none;
 }
 .title h1 .stuff:hover{
-    -webkit-transition:5s ease-in-out;
-  transition:5s ease-in-out;
-  color: black;
+    -webkit-transition:1s ease-in-out;
+  transition:1s ease-in-out;
+  color:white;
     background: linear-gradient(180deg,rgba(255,255,255,0) 50%, black 50%);
 }
