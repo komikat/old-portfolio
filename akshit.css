@@ -1,0 +1,99 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    height: 100%;
+    background-color: #222831;
+    color: #00adb5;
+}
+
+.main {
+    margin: auto;
+    width: 85vw;
+    padding-top: 60px;
+}
+
+.main h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.main h2 {
+    width: 40vw;
+    font-size: 27px;
+    margin: 0;
+    padding-top: 20px;
+    color: #14ffec;
+    transition-duration: 100ms;
+    font-weight: 200;
+}
+
+.nav {
+    list-style: none;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.icon {
+    flex: 1;
+}
+
+.buttons {
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+}
+
+.nav li {
+    padding-right: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .main h2 {
+        width: 68vw;
+    }
+}
+
+.link,
+.link:link {
+    text-decoration: none;
+    background-position-y: -0%;
+    background-image: linear-gradient( #222831 50%, gold 20%);
+    transition: background 500ms ease;
+    background-size: 2px;
+    background-size: auto 180%;
+}
+
+.link:hover {
+    background-position-y: 25%;
+    color: #fff6f6;
+}
+
+.social {
+    padding-top: 20px;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    transition: 200ms;
+}
+
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+
+.fa-github:hover {
+    color: #6e5494;
+}
