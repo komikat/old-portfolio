@@ -128,3 +128,6 @@ body {
 .work:hover {
     color: gray;
 }
+a, a:visited {
+  color: inherit;
+}
